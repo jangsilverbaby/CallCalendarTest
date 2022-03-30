@@ -1,18 +1,17 @@
-package com.example.callcalendertest
+package com.example.callcalendartest
 
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.callcalendertest.databinding.ActivityMainBinding
+import com.example.callcalendartest.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
 

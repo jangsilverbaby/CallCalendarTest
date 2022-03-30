@@ -1,4 +1,4 @@
-package com.example.callcalendertest
+package com.example.callcalendartest
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -16,9 +16,7 @@ import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
-
-class CallLogFragment : Fragment() {
-
+class WeekLogFragment : Fragment() {
     private lateinit var mAdapter: CallLogAdapter
     var callList = mutableListOf<Call>()
     var sdate = ""
@@ -28,7 +26,7 @@ class CallLogFragment : Fragment() {
     lateinit var recycler: RecyclerView
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view = inflater.inflate(R.layout.fragment_calllog, container, false)
+        val view = inflater.inflate(R.layout.fragment_weeklog, container, false)
         setContentView(view)
         return view
     }
@@ -134,5 +132,3 @@ class CallLogFragment : Fragment() {
         return list
     }
 }
-
-

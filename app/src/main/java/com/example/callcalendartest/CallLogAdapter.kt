@@ -1,4 +1,4 @@
-package com.example.callcalendertest
+package com.example.callcalendartest
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.callcalendertest.databinding.ItemCalllogLayoutBinding
 
 data class Call(val id: String?, val name: String?, val phone: String?, val type: String?, val date: String?)
 
