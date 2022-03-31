@@ -9,6 +9,7 @@
         <entry key="app/src/main/res/layout/fragment_calllog.xml" value="0.33645833333333336" />
         <entry key="app/src/main/res/layout/fragment_weeklog.xml" value="0.32916666666666666" />
         <entry key="app/src/main/res/layout/item_calllog_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_schedule.xml" value="0.41510416666666666" />
       </map>
     </option>
   </component>

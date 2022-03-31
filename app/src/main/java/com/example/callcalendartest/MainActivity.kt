@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onRestart() {
         super.onRestart()
-        CallLogFragment().refreshAdapter()
+        monthLogFragment().refreshAdapter()
     }
 
     fun startProcess() {
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
     fun setAdapter() {
         // 아답터 세팅
-        val fragments = listOf(CallLogFragment(), WeekLogFragment())
+        val fragments = listOf(monthLogFragment(), WeekLogFragment())
         val adapter = FragmentAdapter(this)
         adapter.fragmentList = fragments
         binding.viewPager.adapter = adapter
